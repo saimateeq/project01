@@ -1,0 +1,313 @@
+.main{
+    background-image: url(background.jpg);
+    height:2500px ;
+
+}
+.topbar-img{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(245, 243, 243);
+    padding: 5px;
+    outline: 3px solid rgb(185, 185, 185);
+} 
+.topbar-img>img{
+    outline: 1px solid grey;
+    border-right:3px solid white ;
+    padding: 10px;
+}
+.pokemon{
+    background-color: white;
+}
+@keyframes vibrate{
+    0% {padding-bottom: 10px; padding-top: 10PX;}
+    20% {padding-bottom: 5px; padding-top: 15PX;}
+    40% {padding-bottom: 15px; padding-top: 5PX;}
+    60% {padding-bottom: 5px; padding-top: 15PX;}
+     80% {padding-bottom: 15px; padding-top: 5PX;}
+     100% {padding-bottom: 10px; padding-top: 10PX;}
+}
+.img-two:hover , .img-three:hover{
+    animation-name: vibrate;
+    animation-duration: 0.2s;
+}
+.img-four:hover + .img-five{
+    opacity: 0.2;
+} 
+.img-five:hover + .img-six{
+opacity: 0.2;
+}
+.topbar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: white;
+    align-items: center;
+}
+.topbar>li{
+font-size: 20px;
+text-align: center;
+width: 130px;
+color: rgb(92, 92, 92);
+
+}
+.home{
+    border-bottom: 7px solid rgb(92, 92, 92);
+    padding:26px 5px  ;
+}
+.home:hover{
+    background-color: rgb(92, 92, 92);
+    color:white ;
+}
+.pokedex{
+    border-bottom: 7px solid red;
+    padding: 26px 5px;
+    }
+    .pokedex:hover{
+        background-color: red;
+        color:white ;
+    }
+    .games{
+        border-bottom: 7px solid orange;
+        padding: 15px 5px;
+        }
+        .games:hover{
+            background-color: orange;
+            color:white ;
+        }
+        .cards{
+            border-bottom: 7px solid yellow;
+            padding: 15px 5px ;
+            }
+            .cards:hover{
+                background-color: yellow;
+                color:white ;
+            }
+            .TV{
+                border-bottom: 7px solid green;
+                padding: 26px 5px;
+            }
+.TV:hover{
+    background-color: green;
+    color:white ;
+}
+.events{
+    border-bottom: 7px solid rgb(117, 117, 255);
+    padding: 15px 5px;
+}
+.events:hover{
+    background-color: rgb(117, 117, 255);
+    color: white;
+}
+.news{
+    border-bottom: 7px solid blue;
+    padding: 26px 5px;
+}
+.news:hover{
+    background-color: blue;
+    color: white;
+}
+.content{
+    color: white;
+    background-color:white ; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-top: 35px;
+    padding: 20px;
+
+}
+.card-one{
+    background-color: #b89355;
+    width: fit-content;
+
+
+}
+.card-two>img{
+    width:300px ;
+
+}
+.card-two{
+    width: 300px;
+    margin: 0px 11px;
+    background-color: red;
+    height: fit-content;
+}
+.card-four>img{
+      width: 270px;
+}
+.card-four{
+      width: 270px;
+      margin-top: 20px ;
+      background-color: rgba(140,88,199,255);
+      height: fit-content;
+}
+.card-five>img{
+      width: 288px;
+}
+.card-five{
+    width: 288px;
+    margin-top:20px ;
+    background-color: rgba(164,164,164,255) ;
+    height: fit-content;
+    margin-left: 20px;
+}
+.card-three>img{
+    width: 300px;
+}
+.card-three{
+    width:300px ;
+    background-color: rgba(255,138,191,255);
+    height: fit-content;
+    margin-left: 20px;
+}
+.card-six>img{
+      width: 150px;
+      
+}
+.card-six{
+    display: flex;  
+    width: 300px;
+      background-color:rgba(0,170,216,255);
+      height: 150px;
+      margin-top: 20px;
+}
+
+.character{
+    display: flex; 
+    background: black;
+    color :white;
+    border: 4px solid black;
+    text-align: center;
+
+}
+.character-one>img{
+    width:242px ;
+    padding: 10px;
+    background-color: rgba(82,82,82,255);
+    border: 4px  solid black;
+}
+.character-two>img{
+    width:242px ;
+    background-color: rgba(82,82,82,255);
+    border:  4px solid black;
+    padding: 10px;
+}
+.character-three>img{
+    width:242px;
+    background-color: rgba(82,82,82,255);
+    border: 4px solid black;
+    padding: 10px;
+}
+.character-four>img{
+    width:242px;
+    background-color: rgba(82,82,82,255);
+    border: 4px solid black;
+    padding: 10px;
+}
+.character-five>img{
+    width:242px ;
+    background-color: rgba(82,82,82,255);
+    border: 4px solid black;
+   padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
